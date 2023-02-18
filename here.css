@@ -1,0 +1,276 @@
+
+
+.image {
+    height: 60px;
+    width: 100px;
+}
+
+.logo {
+    color: white;
+    text-decoration: underline;
+}
+
+.whoareweimage {
+    padding: 40px;
+    height: 380px;
+    width: 400px;
+}
+
+.wherewestartedcontainer {
+    background-color: #FF007F;
+    color: white;
+    padding: 30px;
+}
+
+.fotter {
+    background-color: black;
+    color: white;
+}
+
+.fotter-top {
+    background-color: #DADEDF;
+}
+
+.topimage {
+    width: 100%;
+    height: 100%;
+}
+
+.weimage {
+
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 50px
+}
+
+.card-container {
+    height: 100%;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.topdec {
+    background-color: darkblue;
+}
+
+.paragraph1 {
+    text-align: center;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.imagecontainer {
+    background-image: url("https://www.shutterstock.com/image-photo/student-study-classmate-classroom-lecture-260nw-405862129.jpg");
+    filter: brightness(80%);
+    height: 100vh;
+    background-size: cover;
+}
+
+.text-container {
+    filter: brightness(100%);
+}
+
+.topimagepara {
+
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.topimagepara1 {
+
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.spanelement {
+
+    font-size: 50px;
+}
+
+.toppara2 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.whoweare-container {
+    margin: 30px;
+
+}
+
+.imagefinal {
+    height: 100vh;
+}
+
+
+
+
+
+
+#form {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: right;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.sub-container1 {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.vl {
+    border-left: 3px solid black;
+    height: 650px;
+    margin-top: 80px;
+
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    position: static;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap-reverse;
+}
+
+.border {
+    outline-style: solid;
+    margin: 40px;
+    background-color: white;
+}
+
+@media (orientation:portrait) and (max-width:767px) {
+    .border {
+        margin: 10px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .sub-container1 {
+        height: 100%;
+        position: absolute;
+
+
+    }
+
+    .vl {
+        display: none;
+    }
+
+    .container {
+        flex-grow: 2;
+    }
+}
+
+
+@media (orientation:landscape),
+(min-width:768px) {
+
+    .sub-container1 {
+        justify-content: center;
+    }
+
+    .container {
+        margin: 0px;
+    }
+
+
+
+}
+
+.techteenscontainer {
+    background-color: #F2F3F4;
+    
+}
+
+
+.teensheading {
+    font-size: 20px;
+    margin: 50px;
+}
+.conti{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imgage {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}

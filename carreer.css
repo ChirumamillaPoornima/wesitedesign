@@ -1,0 +1,60 @@
+.image {
+    height: 60px;
+    width: 100px;
+}
+
+.sub-container {
+    background-image: url("https://rubixe.com/img/career1.jpg");
+    height: 50vh;
+    background-size: cover;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    font-size: 13px !important;
+    text-decoration: underline;
+    cursor: pointer;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.deco {
+    color: #747474;
+
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.lll {
+    padding-left: 10px;
+}
+
+.sub-container2 {
+    background-image: url("https://rubixe.com/img/career2.jpg");
+    background-size: cover;
+    height: 50vh;
+    align-self: center;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fontt {
+    font-family: 'Pacifico', cursive !important;
+    color: white;
+    text-align: center;
+
+}
+
+.dsgn {
+    background-color: #b2cc71;
+    color: white;
+    padding: 10px;
+    margin: 80px;
+    border-color: white;
+}
+.fotter {
+    background-color: black;
+    color: white;
+}

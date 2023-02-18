@@ -1,0 +1,40 @@
+
+
+.background-container {
+    background-image: url("https://rubixe.com/img/services.jpg");
+    height: 50vh;
+    background-size: cover;
+}
+.image {
+    height: 60px;
+    width: 100px;
+}
+
+.head {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 30px;
+}
+
+.normal {
+    font-weight: 300;
+}
+
+p {
+    font-size: 13px;
+    color: #747474;
+}
+
+.imagesize {
+    height: 330px;
+    width: 350px;
+}
+
+h6 {
+    font-size: 12px;
+}
+.fotter {
+    background-color: black;
+    color: white;
+}

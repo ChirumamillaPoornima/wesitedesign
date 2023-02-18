@@ -1,0 +1,47 @@
+.background-container {
+    background-image: url("https://rubixe.com/img/product.jpg");
+    height: 50vh;
+    background-size: cover;
+}
+
+.image {
+    height: 60px;
+    width: 100px;
+}
+
+.head {
+    text-align: center;
+}
+
+.imgage {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.heading-solid {
+    border-bottom-style: solid;
+}
+
+.heading {
+    border-top-color: #ff4530;
+}
+
+.sub-container {
+    background-color: #01013f;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.but1 {
+    background-color: #ff4530;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.fotter {
+    background-color: black;
+    color: white;
+}

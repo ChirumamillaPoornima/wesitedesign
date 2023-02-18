@@ -1,0 +1,35 @@
+.background-container {
+    background-image: url("	https://rubixe.com/img/about_us.jpg");
+    height: 40vh;
+    background-size: cover;
+}
+
+.image {
+    height: 60px;
+    width: 100px;
+}
+
+
+
+.fotter {
+    background-color: black;
+    color: white;
+}
+.rubixe307btn {
+    background: #b2cc71;
+    border: none;
+    padding: 12px 20px 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.mt30 {
+    margin-top: 30px;
+}
+
